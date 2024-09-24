@@ -4,6 +4,175 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2024/08/04/Java%E7%AC%94%E8%AE%B0/markdown%E7%86%9F%E6%82%89/"/>
+      <url>/2024/08/04/Java%E7%AC%94%E8%AE%B0/markdown%E7%86%9F%E6%82%89/</url>
+      
+        <content type="html"><![CDATA[<p>他是陆光，是我的搭档。陆光你说句话呀!&#x2F;追番，拜托了。  </p><p>第一，你只有12个小时。         第二，要完全听从我的指挥，不能做出任何改变。</p><p>第三，无论过去，不问将来。      好了，知道了知道了。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>集合体系图</title>
+      <link href="/2024/08/03/Java/%E9%9B%86%E5%90%88/%E9%9B%86%E5%90%88%E4%BD%93%E7%B3%BB%E5%9B%BE/"/>
+      <url>/2024/08/03/Java/%E9%9B%86%E5%90%88/%E9%9B%86%E5%90%88%E4%BD%93%E7%B3%BB%E5%9B%BE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="集合体系图"><a href="#集合体系图" class="headerlink" title="集合体系图"></a>集合体系图</h1><p>Iterable接口：</p><p><img src="https://cdn.jsdelivr.net/gh/mafulong/mdPic@vv1/v1/20210823164232.png" alt="Iterable接口"></p><p>Collection接口：</p><p><img src="https://cdn.jsdelivr.net/gh/mafulong/mdPic@vv1/v1/20210823164242.png" alt="Collection接口"></p><p>List接口：</p><p><img src="https://cdn.jsdelivr.net/gh/mafulong/mdPic@vv1/v1/20210823164250.png" alt="List接口"></p><p>Set接口：</p><p><img src="https://cdn.jsdelivr.net/gh/mafulong/mdPic@vv1/v1/20210823164257.png" alt="Set接口"></p><p>Map接口：</p><p><img src="https://cdn.jsdelivr.net/gh/mafulong/mdPic@vv1/v1/20210823164304.png" alt="Map接口"></p><h1 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        List&lt;String&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DOS命令</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/10.8/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/10.8/</url>
+      
+        <content type="html"><![CDATA[<p>md 创建目录</p><p>rd 删除目录</p><p>copy 拷贝文件</p><p>del 删除文件</p><p>echo 输入内容到文件</p><p>echo 某某 &gt; pic.text</p><p>move 剪切</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java规范</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/10.14/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/10.14/</url>
+      
+        <content type="html"><![CDATA[<h5 id="Java编写步骤"><a href="#Java编写步骤" class="headerlink" title="Java编写步骤"></a>Java编写步骤</h5><p>1、编写Java源代码</p><p>2、Javac编译，得到对应的.class字节码文件</p><p>3、Java运行，本质.class加载到jvm运行</p><h5 id="Java编写的七个规范"><a href="#Java编写的七个规范" class="headerlink" title="Java编写的七个规范"></a>Java编写的七个规范</h5><p>1、类方法的注释，用javadoc的方式，即文档注释</p><p>2、非javadoc注释，往往是对代码的说明</p><p>3、用tap，整体右移，shift+tap左移</p><p>4、运算符和&#x3D;的两边，要给空格，让代码看上去清楚</p><p>5、源代码用utf-8编码</p><p>6、行宽不要超过80</p><p>7、代码编程风格有两种，次行风格和行尾风格（推荐）</p><h5 id="Java易犯错误"><a href="#Java易犯错误" class="headerlink" title="Java易犯错误"></a>Java易犯错误</h5><p>1、主类名和文件名一致</p><p>2、缺少；</p><p>3、拼写错误</p><h5 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h5><p>int:整型</p><p>double：浮点型</p><p>char：字符</p><p>String：字符串</p><h5 id="的使用"><a href="#的使用" class="headerlink" title="+的使用"></a>+的使用</h5><p>1、两边是数字做加法运算</p><p>2、一方为字符串做拼接运算</p><h5 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h5><h6 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h6><p>1字节（基本单位）&#x3D;8bit（最小单位）</p><p>浮点数&#x3D;符号位+指数位+尾数位</p><p>尾数部分可能丢失造成精度丢失</p><p>声明float类型需要后面加f&#x2F;F</p><p>e的平方&#x3D;10的平方</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>java基础知识1</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/9%E6%9C%8814/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/9%E6%9C%8814/</url>
+      
+        <content type="html"><![CDATA[<p>1、环境变量</p><p>系统默认在当前目录下查找该文件，没有找到则在path环境变量下查找该文件</p><p>2、编码方式</p><p>GB2312(中国字库)和gb2312(汉字和常用外文)gbk针对国内用户使用的编码，如果英文较多用utf-8</p><p>3、类</p><p>一个源文件最多一个public类，但可以有很多其他类，每个类对应一个.class文件</p><p>4、转义字符</p><p>\n换行符\\一个\（两个=一个)</p><p>\t制表符\“一个”</p><p>\r一个回车</p><p>在控制台可以用tap键补齐代码</p><p>文件名和公共类一定要匹配</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA快捷键</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<p>1、删除当前行ctrl+d</p><p>2、复制当前行ctrl+alt+向下光标</p><p>3、补全代码alt+&#x2F;</p><p>4、添加注释ctrl+&#x2F;</p><p>5、导入类 先配置auto import,然后用alt+enter</p><p>6、快速格式化代码ctrl+alt+l</p><p>7、快速运行程序alt+enter</p><p>8、生成构造器快捷键 alt+(笔记本加fn)+insert</p><p>9、查看一个类的层级关系ctrl+h[继承很有用]</p><p>10、将光标放在一个方法上，输入ctrl+b,可以定位到哪个类的方法【继承用到】</p><p>11、自动分配变量名.var</p><h1 id="包（不同的文件夹）"><a href="#包（不同的文件夹）" class="headerlink" title="包（不同的文件夹）"></a>包（不同的文件夹）</h1><p>三大作用</p><p>1、区分相同名字的类</p><p>2、当类很多的时候可以很好的管理类</p><p>3、控制访问范围【涉及导包】</p><h3 id="包的命名规则"><a href="#包的命名规则" class="headerlink" title="包的命名规则"></a>包的命名规则</h3><p>只能包含数字、字母、下划线、小圆点，但不能用数字开头，不能是关键字或者保留字</p><h3 id="规范"><a href="#规范" class="headerlink" title="规范"></a>规范</h3><p>一般是小写字母+小圆点</p><p>com.公司名.项目名.业务模块名</p><p>比如：com.hspedu.oa.model;</p><p>举例：</p><p>com.cg.crm.user&#x2F;&#x2F;用户模块</p><p>com.cg.crm.order&#x2F;&#x2F;订单模块</p><p>com.cg.crm.utils&#x2F;&#x2F;工具类</p><h3 id="常用的包"><a href="#常用的包" class="headerlink" title="常用的包"></a>常用的包</h3><p>java.lang.*&#x2F;&#x2F;lang包是基本包，默认引入，不需要再引入</p><p>java.utils.*&#x2F;&#x2F;utils包，系统提供的工具包工具类，使用Scanner</p><p>java.net.*&#x2F;&#x2F;网络包，网络开发</p><p>java.awt.*&#x2F;&#x2F;是做java界面开发，GUI</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SCANNER</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/Scanner/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/Scanner/</url>
+      
+        <content type="html"><![CDATA[<p>scanner</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103190522644.png"></p><p>import java.until.Scanner;&#x2F;&#x2F;表示把java,until下的Scanner类导入</p><p>scanner是一个简单的文本扫描器，可以使用正则表达式解析原始类型和字符串。</p><p>next方法</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103192811562.png" alt="image-20211103192811562"></p><p>当程序执行到next的时候会等待用户输入</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>字符类型转换</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E5%AD%97%E7%AC%A6%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E5%AD%97%E7%AC%A6%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<p>1、基本类型转String</p><p>int n1&#x3D;100;</p><p>String s1&#x3D;n1+””;</p><p>Sering类转为基本数据类型</p><p>语法：通过基本类型的包装类调用parseXX方法</p><p>String s5&#x3D;”123”</p><p>int num1&#x3D;Integer.parseInt(s5);&#x2F;&#x2F;面向对象会讲到</p><p>double num2&#x3D;Double.parseInt(s5);</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>字符类型</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%9E%8B/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<p>char c1&#x3D;’a’&#x2F;‘陈’&#x2F;94 <em>切记不要用””</em></p><p>字符型使用说到了subline</p><p>38472 28851</p><p>char x&#x3D;’a’+1</p><p>((int)x)&#x2F;&#x2F;98</p><p>(x)&#x2F;&#x2F;99</p><p>存储:’a’&#x3D;&#x3D;&gt;码值97&#x3D;&#x3D;&gt;二进制(1100001)&#x3D;&#x3D;&gt;存储</p><p>读取:二进制(1100001)&#x3D;&gt;97&#x3D;&#x3D;&#x3D;&gt;’a’&#x3D;&gt;显示</p><p>布尔类型 boolean</p><p>占一个字节</p><p>一般用于逻辑运算</p><p>if while do-while for 中</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java笔记-整型</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E6%95%B4%E5%9E%8B/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E6%95%B4%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<h4 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h4><p>整型默认为int</p><p>声明long型常量后需要加“L”或“l”</p><h5 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h5><p>double num&#x3D;8.1（00000000000）&#x2F;3(结果为2.69999999999997)</p><p>不是2.7</p><p>党我们对于运算结果是小数的进行相等判断，要小心</p><p>应该是两个数的差值的绝对值，再某个精度范围相等</p><h5 id="API-应用程序编程接口"><a href="#API-应用程序编程接口" class="headerlink" title="API(应用程序编程接口)"></a>API(应用程序编程接口)</h5><p>包&gt;类&gt;方法</p><p>字符要用单引号引起来</p><p>char i&#x3D;’a’; 不能写成”a”</p><p>char i&#x3D;97;  结果输出a</p><p>ascll码表，规定了128个字符编码</p><p>unicode统一编码：没有乱码，缺点每个字符都占两个字节，浪费存储空间</p><p>UTF-8</p><p>字节长可变</p><p>自动转换由小转大</p><p>byte short 和char之间不会发生自动转换</p><p>-byte short 和char之间转换会先转换为int类型然后运算，相当于结果为int型了（自动提升原则，表达式会自动提升为操作中最大类型）</p><p>所以转换的时候要注意类型值</p><p>boolean不参与转换</p><p>强制转换</p><p>int i&#x3D;（int）1.9</p><p>数据精度会损失或者数据溢出</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>运算符</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p>1、逻辑与&amp;：同为真为真（短路与&amp;&amp;：看第一个为假，后面条件不再判断，因为不管真假整体都是假，不会执行）</p><p>&amp;</p><p>2、逻辑或|：同为假为假（短路或||：同&amp;&amp;相反，看到第一个为真，则不会判断后面的真假，因为不管后面真假，都是真）</p><p>|</p><p>主要区别，看有没有执行后面的操作</p><p>3、异或…^：当不同时为真，相同时为假</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211102131621181.png" alt="image-20211102131621181"></p><p>&amp;&amp; 和 ||都会算左边，左边计算是不对的，那就直接返回不会再运算你右边，&amp;和|是两边都会计算,再返回结果</p><p>开发中一般用短路*</p><p>0基础的应该就第一个会出错，出错原因就是不知道x&#x3D;11是什么意思</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211102194923738.png" alt="image-20211102194923738"></p><p>Assign:分配  operator运算符</p><p>三元运算符</p><p>int a&#x3D;10;int b&#x3D;99;</p><p>int result&#x3D;a&gt;b?a++:b–; </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>算术运算符</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+      
+        <content type="html"><![CDATA[<p>%的公式</p><p>a%b&#x3D;a-a&#x2F;b*b</p><p>10%-3</p><p>10-3*3</p><p>-10&#x2F;3</p><p>-10–3*3&#x3D;-10+9&#x3D;-1</p><p>符号和被除数相同</p><p>  ++i:先自增后赋值</p><p>i++:先赋值后自增</p><p> 一般不要用ab之类的命名</p><p>如int length;</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java运算符优先级</title>
+      <link href="/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7/"/>
+      <url>/2024/08/03/Java%E7%AC%94%E8%AE%B0/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<p>从右往左进行运算</p><p>1（）、{}</p><p>2单目运算：运算的时候针只对一个数</p><p>如：++ – ~ ！</p><p>赋值运算</p><p>&#x3D;   +&#x3D;   -&#x3D;   *&#x3D;   &#x2F;&#x3D;   %&#x3D;   &lt;&lt;&#x3D;   &gt;&gt;&#x3D;   &gt;&gt;&gt;&#x3D;    &amp;&#x3D;    ^&#x3D;    |&#x3D;</p><p>其他的从左往右进行运算</p><p>面向对向和面向过程的优缺点</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103175122061.png" alt="image-20211103175122061"></p><p>面向过程：例如ColorOs</p><p>面向对象：例如MIUI</p><p>3算数运算符</p><p>+-*&#x2F;……</p><p>4位运算符</p><p>5比较运算符</p><p>6逻辑运算符</p><p>7三元运算符</p><p>8赋值运算符</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103181429268.png" alt="image-20211103181429268"></p><p>标识符命名规则</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103182534532.png" alt="image-20211103182534532"></p><p>保留字</p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103183609191.png" alt="image-20211103183609191"></p><p><img src="C:\Users\廖健春\AppData\Roaming\Typora\typora-user-images\image-20211103184505270.png" alt="image-20211103184505270"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>代码演示</title>
       <link href="/2024/07/17/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/"/>
       <url>/2024/07/17/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/</url>
